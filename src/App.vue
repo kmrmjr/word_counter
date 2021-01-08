@@ -1,27 +1,26 @@
 <template>
   <v-app>
-    <v-main>
-      <div class="ma-10 pa-14">
-        <neumo-form></neumo-form>
-      </div>
-    </v-main>
+    <custom-header></custom-header>
+    <main-page></main-page>
   </v-app>
 </template>
 
 <script>
-import NeumoForm from './components/organisms/NeumoForm.vue';
+import MainPage from '@/components/pages/MainPage.vue';
+import CustomHeader from './components/molecues/CustomHeader.vue';
 
 export default {
   name: 'App',
 
   components: {
-    NeumoForm,
+    MainPage,
+    CustomHeader,
   },
 };
 </script>
 
 <style>
-  main {
+  main, .header{
     background-color: #F3F3F4 !important;
   }
   .convex {
