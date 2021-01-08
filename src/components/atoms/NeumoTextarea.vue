@@ -17,5 +17,6 @@ export default {
 textarea {
   resize: none !important;
   outline: none;
+  width: 100%;
 }
 </style>
