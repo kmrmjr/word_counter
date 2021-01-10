@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-container class="pt-14">
-      <v-row justify="center">
+      <v-row justify="center" class="pb-10">
         <neumo-form
           :count="count"
           @my-click="language = $event"

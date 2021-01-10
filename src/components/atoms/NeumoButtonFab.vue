@@ -6,7 +6,8 @@
     `size-${size}`,
     'font-weight-bold',
     'grey--text',
-    'text--darken-2']"   
+    'text--darken-2',
+    ]"
   ><slot></slot></button>
 </template>
 

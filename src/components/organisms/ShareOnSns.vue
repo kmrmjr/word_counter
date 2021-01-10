@@ -10,13 +10,12 @@
       >
         <neumo-button-fab
           size="3"
-          class=""
-        >test</neumo-button-fab>
+        ><v-icon>{{v.icon}}</v-icon></neumo-button-fab>
       </a>
       <a :href="shareOnHatena" target="blank">
         <neumo-button-fab
           size="3"
-          class=""
+          class="text-h5"
         ><span>B!</span></neumo-button-fab>
       </a>
     </v-row>
@@ -38,15 +37,15 @@ export default {
     sns() {
       return [
         {
-          icon: ['fab', 'twitter'],
+          icon: 'fab fa-twitter',
           url: `https://twitter.com/intent/tweet?url=${this.url}`
           },
         {
-          icon: ['fab', 'facebook'],
+          icon: 'fab fa-facebook-f',
           url: `https://www.facebook.com/sharer/sharer.php?u=${this.url}`
           },
         {
-          icon: ['fab', 'line'],
+          icon: 'fab fa-line',
           url: `http://line.me/R/msg/text/?${this.text} ${this.url}"`
           },
       ]
