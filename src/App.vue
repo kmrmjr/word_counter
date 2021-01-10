@@ -7,7 +7,7 @@
 
 <script>
 import MainPage from '@/components/pages/MainPage.vue';
-import CustomHeader from './components/molecues/CustomHeader.vue';
+import CustomHeader from './components/molecules/CustomHeader.vue';
 
 export default {
   name: 'App',
@@ -21,14 +21,18 @@ export default {
 
 <style>
   main, .header{
-    background-color: #F3F3F4 !important;
+    background-color: #e7e7e7 !important;
   }
   .convex {
-    background: #F3F3F4 !important;
-    box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(189, 195, 197, 0.5);
+    background: #e7e7e7 !important;
+    box-shadow: -5px -2px 5px #FFFFFF, 5px 2px 5px rgba(118, 122, 122, 0.5);
   }
 
-  .concave {
-    box-shadow: inset -4px -2px 8px #FFFFFF, inset 4px 2px 8px rgba(189, 195, 197, 0.48);
+  .concave, .convex:active {
+    box-shadow: inset -4px -2px 8px #FFFFFF, inset 4px 2px 8px rgba(118, 122, 122, 0.5);
+  }
+
+  *:focus {
+    outline: none;
   }
 </style>
