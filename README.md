@@ -1,24 +1,9 @@
-# word_counter_vue
+# wordcounter
+[![word counter](https://user-images.githubusercontent.com/67997077/127482736-f33aed9c-d572-4015-ab66-12a9be0b3700.png)](https://count-words.web.app/)
 
-## Project setup
-```
-npm install
-```
+## 概要
+文字数をカウントすることができるwebアプリーケーション。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 環境
+Vue.js, Vuetify, CSS/SASS, FontAwsome
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
