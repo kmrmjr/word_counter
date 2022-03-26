@@ -23,5 +23,5 @@ npm run serve
 - Kaito Kimura
 - setoengr@gmail.com
 
-# Licence
-word counter is under MIT Licence
+# License
+word counter is under MIT License
