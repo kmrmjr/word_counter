@@ -40,7 +40,6 @@ export default {
         return 0 
       }
       const words = textTrim.split(/\s+/g)
-      console.log(words);
       return words.length
     }
   }
