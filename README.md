@@ -1,24 +1,27 @@
-# word_counter_vue
+# word counter
+https://count-words.web.app/
+![sample-app-img](./src/assets/sample-app-img.png)
 
-## Project setup
+word counter is a word counting web application. You can count number of words in English and Japanese.
+
+# Usage
+Clone it.
+```
+git clone git@github.com:kmrmjr/word_counter.git
+```
+
+Install dependences.
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Start server on `localhost:8080` and enjoy.
 ```
 npm run serve
 ```
+# Auther
+- Kaito Kimura
+- setoengr@gmail.com
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# Licence
+Watt Changer is under MIT Licence
