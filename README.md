@@ -2,7 +2,7 @@
 https://count-words.web.app/
 ![sample-app-img](./src/assets/sample-app-img.png)
 
-word counter is a word counting web application. You can count number of words in English and Japanese.
+word counter is a simple word counting web application. You can count the number of words in English and Japanese.
 
 # Usage
 Clone it.
@@ -24,4 +24,4 @@ npm run serve
 - setoengr@gmail.com
 
 # Licence
-Watt Changer is under MIT Licence
+word counter is under MIT Licence
