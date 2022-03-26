@@ -2,12 +2,14 @@
   <v-app>
     <custom-header></custom-header>
     <main-page></main-page>
+    <custom-footer></custom-footer>
   </v-app>
 </template>
 
 <script>
 import MainPage from '@/components/pages/MainPage.vue';
 import CustomHeader from './components/molecules/CustomHeader.vue';
+import CustomFooter from './components/molecules/CustomFooter.vue';
 
 export default {
   name: 'App',
@@ -15,6 +17,7 @@ export default {
   components: {
     MainPage,
     CustomHeader,
+    CustomFooter,
   },
 };
 </script>
