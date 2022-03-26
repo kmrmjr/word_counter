@@ -4,7 +4,7 @@
     'rounded-circle',
     'convex',
     `size-${size}`,
-    'font-weight-bold',
+    'font-weight-medium',
     'grey--text',
     'text--darken-2',
     ]"
